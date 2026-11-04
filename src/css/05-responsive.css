@@ -1,0 +1,149 @@
+/* ============================================================
+   05 · Responsive + motion preferences
+   ============================================================ */
+
+@media (max-width: 1120px) {
+  .exam-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .exam-grid > .exam-card:last-child { grid-column: span 2; }
+  .hero { gap: 30px; }
+  .mix-inner { grid-template-columns: 1fr; gap: 24px; }
+  .mix-right { min-width: 0; max-width: 420px; }
+  .perf-layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 980px) {
+  .hero { grid-template-columns: 1fr; padding: 48px 0 38px; gap: 32px; }
+  .hero h1 { max-width: 20ch; }
+  .hero-panel { max-width: 480px; }
+  .performance-teaser { grid-template-columns: 1fr; gap: 22px; }
+  .exam-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .exam-grid > .exam-card:last-child { grid-column: auto; }
+  .exam-grid > .exam-card:first-child { grid-column: span 2; }
+
+  .exam-grid-cards, .exam-grid { grid-template-columns: repeat(2, 1fr); }
+  .exam-layout, .exam-grid { grid-template-columns: 1fr; }
+  .exam-side { display: none; }
+  .mobile-exam-bar { display: flex; }
+  .exam-page { padding-bottom: 96px; }
+  .qcard { min-height: 0; }
+  .qcard-foot .qfoot-btns .btn-submit-desktop { display: none; }
+  .result-hero { grid-template-columns: 130px 1fr; gap: 24px; padding: 24px; }
+  .score-ring { width: 130px; height: 130px; }
+  .score-ring .score-label strong { font-size: 32px; }
+  .perf-kpis { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 760px) {
+  .wrap { width: calc(100% - 32px); }
+  .site-head { height: 64px; }
+  .head-nav { display: none; }
+  .brand-word span { display: none; }
+  .brand-word { font-size: 16.5px; }
+  .brand-mark { width: 34px; height: 34px; border-radius: 10px; }
+  .brand-mark svg { width: 19px; height: 19px; }
+
+  .hero { padding-top: 38px; }
+  .hero h1 { font-size: clamp(2.2rem, 9vw, 3.2rem); }
+  .hero-lede { font-size: 14.5px; }
+  .hero-meta { gap: 12px; font-size: 11px; }
+  .hero-panel { max-width: none; padding: 21px; }
+  .snapshot { gap: 18px; }
+  .snapshot-ring { width: 100px; height: 100px; }
+  .snapshot-ring .ring-label strong { font-size: 22px; }
+
+  .exam-grid { grid-template-columns: 1fr; }
+  .exam-grid > .exam-card:first-child,
+  .exam-grid > .exam-card:last-child { grid-column: auto; }
+  .exam-card { padding: 20px; }
+  .section-head { align-items: flex-start; flex-direction: column; gap: 10px; margin-bottom: 18px; }
+  .section-count { display: none; }
+
+  .mix-inner { padding: 24px 20px; }
+  .mix-left { flex-direction: column; gap: 14px; }
+  .mix-icon { width: 48px; height: 48px; border-radius: 13px; }
+  .mix-icon .ic { width: 23px; height: 23px; }
+  .mix-right { max-width: none; }
+  .count-btn { font-size: 10.5px; padding: 7px 2px; }
+
+  .performance-teaser { padding: 22px; margin-top: 46px; }
+  .teaser-row { grid-template-columns: 74px 1fr 34px; gap: 9px; }
+
+  .resume-banner { flex-wrap: wrap; gap: 12px; padding: 14px; }
+  .resume-copy { flex-basis: calc(100% - 56px); }
+  .resume-actions { width: 100%; }
+  .resume-actions .btn { flex: 1; }
+
+  .exam-page { padding-top: 12px; }
+  .exam-head { flex-wrap: wrap; gap: 10px; padding-bottom: 14px; }
+  .exam-head-copy h1 { font-size: 1.05rem; white-space: normal; }
+  .exam-head-side { width: 100%; justify-content: space-between; }
+  .exam-head-side .btn-submit-top { display: none; }
+  .timer { min-width: 0; }
+  .exam-submeta { gap: 10px; font-size: 10px; margin-bottom: 16px; }
+  .qcard { padding: 20px 17px; border-radius: 18px; }
+  .qtext { font-size: 1.12rem; }
+  .qcard-top { margin-bottom: 14px; }
+  .option { padding: 12px 12px; gap: 10px; }
+  .opt-text { font-size: 12.8px; }
+  .qcard-foot { flex-direction: column-reverse; align-items: stretch; gap: 12px; margin-top: 22px; }
+  .qfoot-btns { display: grid; grid-template-columns: auto 1fr; }
+  .qhint { justify-content: center; }
+
+  .results-page { padding-top: 20px; }
+  .result-hero { grid-template-columns: 1fr; gap: 18px; padding: 22px; text-align: center; }
+  .score-ring { margin: 0 auto; }
+  .result-sub, .result-actions { justify-content: center; }
+  .result-message { margin-left: auto; margin-right: auto; }
+  .result-stats { grid-template-columns: repeat(2, 1fr); }
+  .review-head { flex-direction: column; align-items: flex-start; }
+  .review-body { padding-left: 18px; }
+  .review-top { padding: 15px 15px 0; }
+  .answer-compare { grid-template-columns: 1fr; }
+  .filter-tabs { width: 100%; }
+  .filter-btn { flex: 1; }
+
+  .performance-page { padding-top: 26px; }
+  .perf-kpis { grid-template-columns: 1fr 1fr; }
+  .perf-panel { padding: 18px; }
+  .exam-perf-card { grid-template-columns: auto 1fr; }
+  .exam-perf-score { grid-column: 2; text-align: left; display: flex; align-items: baseline; gap: 6px; }
+  .exam-perf-score span { margin-top: 0; }
+
+  .modal { padding: 20px; }
+  .modal-actions { flex-direction: column-reverse; }
+  .modal-actions .btn { width: 100%; }
+  .modal-stats { grid-template-columns: repeat(3, 1fr); }
+  .map-modal-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+
+  .foot-inner { flex-direction: column; align-items: flex-start; gap: 10px; }
+}
+
+@media (max-width: 430px) {
+  .snapshot { flex-direction: column; align-items: stretch; }
+  .snapshot-ring { margin: 0 auto; }
+  .hero-actions .btn { width: 100%; }
+  .hero-actions { gap: 8px; }
+  .mix-actions { flex-direction: column; }
+  .mix-actions .btn-practice { flex: 0 0 auto; }
+  .result-stats { grid-template-columns: 1fr 1fr; }
+  .perf-kpis { grid-template-columns: 1fr 1fr; }
+  .kpi .v { font-size: 23px; }
+  .mix-right .count-group { flex-wrap: wrap; }
+  .count-btn { flex: 1 0 28%; }
+  .map-grid { grid-template-columns: repeat(6, 1fr); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+@media print {
+  .site-head, .site-foot, .mobile-exam-bar, .result-actions, .filter-tabs, .review-head .btn { display: none !important; }
+  body { background: #fff; color: #111; }
+  .review-item, .result-hero, .stat-card { break-inside: avoid; border-color: #ccc; }
+}

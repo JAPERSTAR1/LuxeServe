@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#070b14">
+<title>Codex — Software Systems Exam Studio</title>
+<meta name="description" content="An interactive exam studio for Software Systems: five full exams and a randomized all-in-one mock, with instant review and performance tracking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%235eead4'/%3E%3Cpath d='M20 20h24v7H27v10h14v7H27v10h17v7H20z' fill='%23041010'/%3E%3C/svg%3E">
+<style>
+<!--STYLE-->
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <button class="brand" type="button" data-act="brand" aria-label="Codex home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 5h16v5H9v4h9v5H4z"/>
+        </svg>
+      </span>
+      <span class="brand-word">Codex<span>Exam Studio</span></span>
+    </button>
+
+    <nav class="head-nav" aria-label="Primary">
+      <button class="nav-btn is-active" type="button" data-act="nav" data-view="dashboard">Dashboard</button>
+      <button class="nav-btn" type="button" data-act="nav" data-view="performance">Performance</button>
+    </nav>
+
+    <div class="head-actions">
+      <button class="theme-btn" type="button" data-act="theme" aria-label="Switch to light mode">
+        <svg class="ic icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="ic icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <section id="view-dashboard" class="view" aria-labelledby="dashboardTitle">
+    <div class="wrap dashboard">
+      <div class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">Software Systems · Interactive Exam Studio</span>
+          <h1 id="dashboardTitle">Study with intent. <em class="grad-text">Prove what you know.</em></h1>
+          <p class="hero-lede">Five focused exams built directly from your lecture and midterm material, plus a fully randomized all-in-one mock. Every attempt is timed, saved, and reviewed question by question.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary btn-lg" type="button" data-act="scroll-exams">
+              Browse the exams
+              <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+            <button class="btn btn-ghost btn-lg" type="button" data-act="nav" data-view="performance">
+              <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg>
+              My performance
+            </button>
+          </div>
+          <div class="hero-meta">
+            <span><i class="dot"></i> Auto-saved locally</span>
+            <span><svg class="ic" style="width:14px;height:14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Timed exam mode</span>
+            <span><svg class="ic" style="width:14px;height:14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v18H6.5A2.5 2.5 0 0 1 4 18.5z"/><path d="M8 7h8M8 11h6"/></svg> Detailed explanations</span>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Study snapshot">
+          <div class="panel-head">
+            <h2>Study snapshot</h2>
+            <span class="chip chip-accent" id="snapshotStatus">Fresh start</span>
+          </div>
+          <div class="snapshot">
+            <div class="snapshot-ring">
+              <svg viewBox="0 0 120 120" aria-hidden="true">
+                <defs>
+                  <linearGradient id="snapGrad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#5eead4"/>
+                    <stop offset="55%" stop-color="#7dd3fc"/>
+                    <stop offset="100%" stop-color="#8b93ff"/>
+                  </linearGradient>
+                </defs>
+                <circle class="track" cx="60" cy="60" r="52"/>
+                <circle class="value" id="snapRing" cx="60" cy="60" r="52" stroke-dasharray="326.73" stroke-dashoffset="326.73"/>
+              </svg>
+              <div class="ring-label">
+                <strong id="snapPct">0%</strong>
+                <span>Best average</span>
+              </div>
+            </div>
+            <div class="snapshot-stats">
+              <div class="snap-row"><span class="k">Exams attempted</span><span class="v" id="snapAttempted">0<small> / 5</small></span></div>
+              <div class="snap-row"><span class="k">Question bank</span><span class="v" id="snapBank">0<small> items</small></span></div>
+              <div class="snap-row"><span class="k">Pass mark</span><span class="v">60<small>%</small></span></div>
+            </div>
+          </div>
+          <div class="panel-foot">
+            <i class="pulse"></i>
+            <span id="snapFoot">Your progress is stored on this device.</span>
+          </div>
+        </aside>
+      </div>
+
+      <div id="resumeSlot"></div>
+
+      <section id="exams" aria-labelledby="examsTitle">
+        <div class="section-head">
+          <div>
+            <h2 id="examsTitle">Choose your paper</h2>
+            <p>Each exam draws only from its own source material. No mixing, no shortcuts — the mixed paper is the sixth option below.</p>
+          </div>
+          <span class="section-count" id="examCountLabel">0 EXAMS</span>
+        </div>
+        <div class="exam-grid" id="examGrid"></div>
+        <div id="mixSlot"></div>
+      </section>
+
+      <section class="performance-teaser" aria-labelledby="teaserTitle">
+        <div class="teaser-copy">
+          <span class="eyebrow">Progress, not guesswork</span>
+          <h2 id="teaserTitle">See exactly where you stand.</h2>
+          <p>A separate record for every paper, best and latest scores, attempt history, and question-level review. Nothing is shared or overwritten between exams.</p>
+          <button class="btn btn-soft" type="button" data-act="nav" data-view="performance">
+            Open performance dashboard
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+        <div class="teaser-bars" id="teaserBars"></div>
+      </section>
+    </div>
+  </section>
+
+  <section id="view-exam" class="view exam-page" hidden aria-labelledby="examTitle">
+    <div class="wrap">
+      <div class="exam-head">
+        <button class="icon-btn" type="button" data-act="exit-exam" aria-label="Exit exam and save progress">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="exam-head-copy">
+          <span class="eyebrow" id="examEyebrow">Exam</span>
+          <h1 id="examTitle">Exam</h1>
+        </div>
+        <div class="exam-head-side">
+          <div class="timer" id="timerBox" role="timer" aria-label="Time remaining">
+            <span class="timer-icon">
+              <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 1.5M9 2h6"/></svg>
+            </span>
+            <span class="timer-copy"><strong id="timerText">00:00</strong><small id="timerLabel">remaining</small></span>
+          </div>
+          <button class="btn btn-ghost btn-submit-top" type="button" data-act="submit">Submit</button>
+        </div>
+      </div>
+      <div class="exam-progress" role="progressbar" aria-label="Exam progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="examProgress"><span></span></div>
+      <div class="exam-submeta">
+        <span class="mode-pill" id="examModePill"></span>
+        <span id="examProgressText"></span>
+        <span id="examAnsweredText"></span>
+        <span id="examFlagText"></span>
+      </div>
+      <div class="exam-grid">
+        <div id="questionSlot"></div>
+        <aside class="exam-side" id="examSidebar" aria-label="Question navigation"></aside>
+      </div>
+    </div>
+    <div class="mobile-exam-bar">
+      <button class="btn btn-ghost" type="button" data-act="prev">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        Prev
+      </button>
+      <button class="btn btn-ghost btn-map" type="button" data-act="open-map" aria-label="Open question map">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      </button>
+      <button class="btn btn-primary" type="button" data-act="next">
+        Next
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <section id="view-results" class="view results-page" hidden aria-labelledby="resultsTitle"></section>
+  <section id="view-performance" class="view performance-page" hidden aria-labelledby="performanceTitle"></section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-inner">
+    <div><strong>Codex Exam Studio</strong> · Built from the Software Systems lecture and midterm material.</div>
+    <div class="foot-links">
+      <button type="button" data-act="nav" data-view="dashboard">Dashboard</button>
+      <button type="button" data-act="nav" data-view="performance">Performance</button>
+      <button type="button" data-act="reset-data">Reset all data</button>
+    </div>
+  </div>
+</footer>
+
+<div id="modalRoot"></div>
+<div class="toast-root" id="toastRoot" aria-live="polite" aria-atomic="false"></div>
+
+<script>
+<!--DATA-->
+</script>
+<script>
+<!--APP-->
+</script>
+</body>
+</html>
