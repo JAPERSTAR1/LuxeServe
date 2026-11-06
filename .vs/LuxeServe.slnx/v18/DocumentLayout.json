@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|c:\\users\\amjaa\\onedrive\\desktop\\programming advice\\projects\\luxeserve\\utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|solutionrelative:utilities\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|c:\\users\\amjaa\\onedrive\\desktop\\programming advice\\projects\\luxeserve\\utilities\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|solutionrelative:utilities\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|c:\\users\\amjaa\\onedrive\\desktop\\programming advice\\projects\\luxeserve\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|c:\\users\\amjaa\\onedrive\\desktop\\programming advice\\projects\\luxeserve\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|c:\\users\\amjaa\\onedrive\\desktop\\programming advice\\projects\\luxeserve\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|solutionrelative:repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|c:\\users\\amjaa\\onedrive\\desktop\\programming advice\\projects\\luxeserve\\repositories\\dishrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|solutionrelative:repositories\\dishrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|c:\\users\\amjaa\\onedrive\\desktop\\programming advice\\projects\\luxeserve\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|c:\\users\\amjaa\\onedrive\\desktop\\programming advice\\projects\\luxeserve\\models\\enum\\appenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E697A5B-15C3-422E-B313-C2F74205E6C3}|LuxeServe.csproj|solutionrelative:models\\enum\\appenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 235,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Utilities\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Utilities\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Utilities\\PasswordHasher.cs",
+              "RelativeToolTip": "Utilities\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T18:12:16.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Utilities\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Utilities\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Utilities\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "Utilities\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T18:12:15.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T18:11:36.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T18:10:22.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "Repositories\\ReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T18:10:20.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DishRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Repositories\\DishRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DishRepository.cs",
+              "ToolTip": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Repositories\\DishRepository.cs",
+              "RelativeToolTip": "Repositories\\DishRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T18:10:16.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T18:08:57.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppEnums.cs",
+              "DocumentMoniker": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Models\\Enum\\AppEnums.cs",
+              "RelativeDocumentMoniker": "Models\\Enum\\AppEnums.cs",
+              "ToolTip": "C:\\Users\\amjaa\\OneDrive\\Desktop\\Programming Advice\\Projects\\LuxeServe\\Models\\Enum\\AppEnums.cs",
+              "RelativeToolTip": "Models\\Enum\\AppEnums.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T18:08:36.96Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
